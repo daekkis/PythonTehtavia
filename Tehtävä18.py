@@ -3,6 +3,6 @@
 ikä = int(input("Ikäsi? "))
  
 if 0 <= ikä <= 120:
-    print("OK")
+    print("Ikä on realistinen")
 else:
     print("Mahdotonta!")

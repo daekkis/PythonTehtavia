@@ -1,6 +1,6 @@
 # Tee ohjelma, joka kysyy käyttäjältä salasanan. Jos salasana on oikea, ohjelma tulostaa salaisen tiedon. 
 
-salasana = "Jekku"
+salasana = "Kyllä"
 #tieto = "Rakastan sua, mutta olen nainen"
 #Kysymys = input("Salasana? ")
 
@@ -18,7 +18,7 @@ for yritys in range(3):
     Kysymys = input("Salasana? ")
     if Kysymys == salasana:
         print("Onnea, pääsit salaiseen tietooni:")
-        print("Rakastan sua, mutta olen nainen")
+        print("Game over")
         break
     else:
         print("Yritä uudestaan")
